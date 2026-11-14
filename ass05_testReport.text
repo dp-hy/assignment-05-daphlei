@@ -1,0 +1,23 @@
+Test                            Input Used                  Expected Output                                     Actual Result
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Add student                  Ana, 85                     Student added successfully.                         Student added successfully.
+
+2. Invalid score                Ben, 150, 92                Reject 150 and ask for another score.               Rejects the score 150 then asks for another score.
+
+3. Search existing student      Ana                         Display Ana's name and score.                       Student found: Ana (85)
+
+4. Search missing student       Ryle                        Display "Student not found."                        Student not found.
+
+5. Update score                 Ana, 95                     Update Ana's score successfully.                    Score updated successfully.
+
+6. Tied highest scores          ryle: 100, Eri: 100         Display both students as tied for highest score.    Highest-scoring student: Ryle (100) Also tied: Eri (100)
+
+7. Average statistics           Current students            Average: 96.75; 2 students at or above average.     Average score: 96.75 Students scoring at or above average: 2
+
+8. Maximum capacity             Add 21 students             Reject the 21st student.                            Student list is full. Cannot add more students
+
+9. Empty array                  Select options 2, 3, 5,     Display appropriate messages for empty records.     No students have added, to search, available, to calculate
+                            6 without adding students. 
+
+10. Invalid menu input      Enter abc, then 8, then 7       Reject invalid input and choices, then exit         Reject invalid input and choices, then exit successfully.
+                                                            successfully.
